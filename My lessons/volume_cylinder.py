@@ -1,5 +1,6 @@
 import math
 
+
 # Объем цилиндра
 # PI = math.pi
 # # Запрашиваем у пользователя значения радиуса и высоты
@@ -8,7 +9,6 @@ import math
 # # Вычисляем объем цилиндра
 # volume = round(PI * radius ** 2 * height, 2)
 # print(f'Объем цилиндра равен {volume} куб.см.')
-
 
 
 # i = 0
@@ -30,5 +30,10 @@ def sum(a, b):
     return a + b
 
 
+def minus(x, y):
+    return x - y
+
+
 if __name__ == '__main__':
     print(sum(5, 5))
+    print(minus(8, 2))
